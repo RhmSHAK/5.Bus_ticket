@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Ticket</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="mx-20 shadow-lg my-3  rounded-3xl">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-green-200 text-green-600">Button
+                    <img src="images/bus-icon.png" alt="">
+                  </a>
+                  
+                </div>
+              </div>
+        </nav>
+    </header>
+
+<main class="">
+ <!-- ---------------------banner section---------------------------------------------------------- -->
+    <section id="banner" class=" h-[60%] w-[90%] bg-[url(images/banner.png)] bg-no-repeat bg-cover bg-center mx-[74px] rounded-2xl ">
+        <div class="flex flex-col min-h-screen justify- items-center gap-12 pt-24">
+            <h1 class="font-extrabold text-8xl text-white ">End-to-End Travel with</h1>
+            <h1 class="font-extrabold text-8xl text-green-600">P Paribahan</h1>
+            <p class="text-white font-medium">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio magni eius, dicta cupiditate saepe odio <br> Exercitationem nostrum est sed ea tenetur, autem magnam enim.</quod></p>
+
+            <button onclick="buy()" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-green-400 text-black w-60 font-bold">Buy Ticket</button>
+
+        </div>
+     </section>
+<!-- -------------------------------coupon section--------------------------------------------------------------------- -->
+ <section id="coupon" class="hidden">
+    <h1 class=" font-semibold text-6xl text-center mt-28">Best offer for you</h1>
+    <div class="flex gap-16  mt-12 mx-48">
+        <div class="card h-[220px] w-[693px]  bg-yellow-500 text-primary-content">
+            <div class="card-body">
+                <div class="flex justify-between mx-8 mb-8">
+                    <div class="mt-8">
+                        <h1 class="font-medium text-5xl text-black">15% OFF</h1>
+                        <h2 class="text-xl text-black">on your next purchase</h2>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img class=" -mt-8" src="images/cupon-devider.png" alt="">
+                    <div class="mt-10">
+                        <h1 class="font-medium text-3xl text-black">NEW15</h1>
+                        <p>Coupon Code</p>
+                    </div>
+                    
+                </div>
+              </div>
+          </div>
+          <!-- ------------------------------------ -->
+          <div class="card h-[220px] w-[693px]  bg-yellow-500 text-primary-content">
+            <div class="card-body">
+                <div class="flex justify-between mx-8 mb-8">
+                    <div class="mt-8">
+                        <h1 class="font-medium text-4xl text-black">20% OFF</h1>
+                        <h2 class="text-xl text-black ">on your next purchase</h2>
+                        <p>use by January 2024</p>
+                    </div>
+                    <img class=" -mt-8" src="images/cupon-devider.png" alt="">
+                    <div class="mt-10">
+                        <h1 class="font-medium text-2xl text-black w-full">Couple 20</h1>
+                        <p class=>Coupon Code</p>
+                    </div>
+                    
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <div></div>
+ </section>
+
+ <!-------------------------------- From Bus seat----------------------------------------------------- -->
+  <section id="ticket" class="hidden  mt-12 border-2 rounded-t-3xl border-t-green-600 space-y-10">
+    <h1 class="text-center font-bold text-3xl text-black mt-28">P.H Paribahan</h1>
+     <p class="text-center font-light text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem dolor autem, officiis eveniet optio tenetur <br> praesentium quam odio aspernatur officia magni facere explicabo deserunt molestias!</p>
+<div class="mx-[140px] mt-32 shadow-xl rounded-2xl border-2 w-[1170px]">
+    <div class="card h-[418px] w-[1070px]   text-primary-content ">
+        <div class="card-body">
+            <div class="flex justify-between mx-8 mb-8">
+               <div>
+                <div class="flex gap-[230px]">
+                    <div class="mt-8 flex gap-3">
+                        <img class="w-[68.57px] h-[48px] mt-3" src="images/bus-logo.png" alt="">
+                         <div class="w-[315px] h-[12px]">
+                            <h1 class="font-bold text-2xl text-black">Greenline Paribahan</h1>
+                            <h2 class="text-xl text-black">Coach-009-WEB ! AC_Business</h2>
+                        
+                         </div>
+                    </div>
+    
+                    <div class="bg-green-200 w-[180px] h-[56px] rounded-xl mt-10">
+                    <div class="flex gap-2 ml-4 mt-3">
+                        <img class="" src="images/seat-green.png" alt="">
+                        <div class="font-medium text-xl text-green-500"><span id="seatLeft">8</span> seats left</div>
+                    </div>
+                    </div>
+    
+                   </div>
+                   <div class="w-[808px] h-[258px] border-2 mt-2 bg-gray-100  " >
+                    <div class="mx-5 mt-6 mb-8 flex gap-[80%]">
+                        <p class="text-gray-500 font-normal">Router </p>
+                        <P class="text-black font-medium">Dhaka - Sylhet</P>
+                    </div>
+                    <hr class="">
+                    <div class="mx-5 -mr-1 mt-6 mb-8 flex gap-[70%]">
+                        <p class="text-gray-500  font-normal">Departure Time </p>
+                        <P class="text-black  font-medium">9:00 Pm</P>
+                    </div>
+                    <hr>
+                    <div class="flex justify-around mt-6">
+                        <button class="btn w-[210px] h-[55px] bg-gray-300">Boarding Point - Laxmipur</button>
+                        <button class="btn w-[210px] h-[55px] bg-gray-300">Dropping Point - Bogura</button>
+                        <button class="btn w-[210px] h-[55px] bg-gray-300">Est. Time - 11 Hour</button>
+                    </div>
+                   </div>
+               </div>
+
+                <img class=" -mt-[33.5px] h-[418.9px]" src="images/info-devider.png" alt="">
+                <div class=" text-center  ml-10 mt-28  w-full h-full space-y-3">
+                    <img class="ml-6" src="images/fare.png" alt="">
+                    <h1 class="font-semibold text-3xl text-black">550</h1>
+                    <p class="text-xl text-gray-400 w-full">per seat</p>
+                </div>
+                
+            </div>
+          </div>
+      </div>
+</div>
+
+
+<!---------------------------------- ticket section------------------------------------- -->
+
+<!--------------------ticket------------------------------ -->
+<div class="mx-[140px] mt-7 w-[1170px] h-[1056px] shadow-xl mb-5 rounded-xl border-2 flex gap-6">
+<!----------------------1st part --------------------------------------------->
+<div class="mt-7 space-y-6 ">
+    <h1 class="ml-9 font-bold text-2xl">Select Your Seat</h1>
+    <hr>
+    <div class="flex justify-between">
+        <div class="flex gap-3 ml-9">
+            <img src="images/seat-gray.png" alt="">
+            <p class=" text-xl">Available</p>
+        </div>
+        <div class="flex gap-3">
+            <img src="images/seat-green-filled.png" alt="">
+            <p class="text-green-600 font-medium text-xl">Selected</p>
+        </div>
+    </div>
+    <hr>
+    <img class="ml-[85%]" src="images/control.svg" alt="">
+<!-- 1 ------------------------------------------------------------------------- -->
+    <div class="mt-6 flex gap-5">
+        <h1 class="w-[13px] h-[22px] text-xl font-medium ml-9 mt-4">A</h1>
+        <div class="flex gap-32 ">
+            <div class="flex  gap-8 my-1 w-[50%]">
+                <kbd class="kbd w-[110px] h-[56px]"><h3>A1</h3></kbd>
+                <kbd class="kbd w-[110px] h-[56px] "><h3>A2</h3></kbd>
+                
+              </div> 
+              <div class="flex  gap-8 my-1 w-[70%]">
+                <kbd class="kbd w-[110px] h-[56px]"><h3>A3</h3></kbd>
+                <kbd class="kbd w-[110px] h-[56px]"><h3>A4</h3></kbd>
+                
+              </div> 
+        </div>
+    </div>
+<!-- 2 ----------------------------------------------------------------------- -->
+    <div class="mt-6 flex gap-5">
+        <h1 class="w-[13px] h-[22px] text-xl font-medium ml-9 mt-4">B</h1>
+        <div class="flex gap-32">
+            <div class="flex  gap-8 my-1 w-[50%]">
+                <kbd class="kbd w-[110px] h-[56px]"><h3>B1</h3></kbd>
+                <kbd class="kbd w-[110px] h-[56px]"><h3>B2</h3></kbd>
+                
+              </div> 
+              <div class="flex  gap-8 my-1 w-[70%]">
+                <kbd class="kbd w-[110px] h-[56px]"><h3>B3</h3></kbd>
+                <kbd class="kbd w-[110px] h-[56px]"><h3>B4</h3></kbd>
+                
+              </div> 
+        </div>
+        </div>  
+
+
+</div>
+
+<!---------2nd part----------------------------------------------------->
+<div class="mt-7 space-y-6  w-full ">
+    <p class="ml-9 font-bold text-2xl ">Select Your Seat</p>
+
+    <hr>
+<!-- seat count seat name show -->
+    <div class="flex justify-around font-medium text-xl">
+        <h1>Seat <span id="Seat" class="bg-green-500 rounded-3xl ">0</span></h1>
+        <h1>Class</h1>
+        <h1>Price</h1>
+    </div>
+
+    <div id="container" class="">
+       
+    </div>
+
+    <hr>
+<!-- total price -->
+    <div class="flex justify-between m-12">
+        <p  class="font-medium text-xl">Total Price</p>
+        <p class="font-medium text-xl">BDT <span id="totalPrice"> </span> </p>
+    </div>
+<!-- discount -->
+   <div class="m-14">
+    <input  id="input-field" class="input h-10 w-[250px]" placeholder="Discount">
+    <button id="apply-btn" class="btn h-10 w-30 rounded-md bg-green-500 text-white">Apply</button>
+   </div>
+<!-- discount after total price -->
+    <div class="flex justify-between m-12">
+        <p class="font-medium text-xl">Grand Price</p>
+        <p id="discountPrice" class="font-medium text-xl">BDT <span> </span> </p>
+    </div>
+<!-- next button -->
+    <div class="ml-12">
+    <button onclick="my_modal_3.showModal()" class="btn  w-[90%] bg-green-500 text-white">Next</button>
+<!-- You can open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_3.showModal()">open modal</button> -->
+<dialog id="my_modal_3" class="modal">
+  <div class="modal-box w-[718px] h-[481px]">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+<div class="space-y-7">
+    <img class="ml-[175px]  mt-[40px] w-[80px] h-[77.88px]" src="images/success.png" alt="">
+    <h3 class="font-bold  text-green-500 ml-[160px] text-3xl">SUCCESS</h3>
+    <P class="font-semibold text-black ml- text-xl text-center"> Thank you for Booking Our Bus. <br> We are working hard to find the best service and deals for you</P>
+    <button onclick="home()" class="btn bg-green-500 text-white ml-[120px] w-[220px]">Continue</button>
+</div>
+    <!-- <p class="py-4">Press ESC key or click on ✕ button to close</p> -->
+  </div>
+</dialog>
+  </div>
+</div>
+ <!--  -------------------------------------------------------------- -->
+  </div> 
+
+
+ <!---------------------------------from--------------------------------  -->
+         <div>
+
+         </div>
+
+
+  </section>
+
+ </main>
+    
+ <script src="js/ticket.js"></script>
+</body>
+</html>
