@@ -64,7 +64,7 @@ btn.addEventListener("click", function(){
         document.getElementById('input-field').classList.add("hidden");
         btn.classList.add("hidden");
       }
-     else if(couponElement==="Couple20"){
+     else if(couponElement==="Couple 20"){
         const discountElement = document.getElementById('discountPrice');
         const discount = parseFloat(total * 0.2);
         discountElement.innerText= total - discount;
