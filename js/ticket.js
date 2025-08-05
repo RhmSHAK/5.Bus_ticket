@@ -95,3 +95,16 @@ function buy(){
 }
 
 // -------------------------------------------------------------------------------------
+function home(){
+   // hidden add
+   const hiddenRemove = document.getElementById('banner');
+   hiddenRemove.classList.remove('hidden');
+
+   // hidden remove
+   const hiddenAdd = document.getElementById('ticket');
+   hiddenAdd.classList.add('hidden');
+
+   const hiddenAdd1 = document.getElementById('coupon');
+   hiddenAdd1.classList.add('hidden');
+
+}
