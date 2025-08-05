@@ -97,14 +97,14 @@ function buy(){
 // -------------------------------------------------------------------------------------
 function home(){
    // hidden add
-   const hiddenRemove = document.getElementById('banner');
-   hiddenRemove.classList.remove('hidden');
-
-   // hidden remove
-   const hiddenAdd = document.getElementById('ticket');
+   const hiddenAdd = document.getElementById('banner');
    hiddenAdd.classList.add('hidden');
 
-   const hiddenAdd1 = document.getElementById('coupon');
-   hiddenAdd1.classList.add('hidden');
+   // hidden remove
+   const hiddenRemove = document.getElementById('ticket');
+   hiddenRemove.classList.remove('hidden');
+
+   const hiddenRemove1 = document.getElementById('coupon');
+   hiddenRemove1.classList.remove('hidden');
 
 }
